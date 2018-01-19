@@ -4,28 +4,17 @@ module.exports = {
     'react'
   ],
   parserOptions: {
-    ecmaVersion: 6,
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true
-    }
+    ecmaVersion: 6
   },
   env: {
-    browser: true,
-    jest: true
+    browser: true
   },
   globals: {
-    __PROJECT__: true,
     __BROWSER__: true,
     __DEV__: true,
     __LOC__: true,
     document: true,
-    window: true,
-    jest: true
-  },
-  settings: {
-    'import/resolver': {
-      'babel-module': {}
-    }
+    window: true
   },
   rules: {
     'global-require': 0,
