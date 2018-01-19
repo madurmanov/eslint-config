@@ -16,6 +16,11 @@ module.exports = {
     document: true,
     window: true
   },
+  settings: {
+    'import/resolver': {
+      'babel-module': {}
+    }
+  },
   rules: {
     'global-require': 0,
     'arrow-body-style': 0,
