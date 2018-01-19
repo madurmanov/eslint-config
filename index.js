@@ -16,11 +16,6 @@ module.exports = {
     document: true,
     window: true
   },
-  settings: {
-    'import/resolver': {
-      'babel-module': {}
-    }
-  },
   rules: {
     'global-require': 0,
     'arrow-body-style': 0,
@@ -40,18 +35,11 @@ module.exports = {
       2,
       'never'
     ],
+    'no-underscore-dangle': 0,
 
     'import/extensions': 0,
-    'import/no-unresolved': 1,
-    'import/no-extraneous-dependencies': [
-      1,
-      {
-        'devDependencies': [
-          '**/*.test.js',
-          '**/*.spec.js'
-        ]
-      }
-    ],
+    'import/no-unresolved': 0,
+    'import/no-extraneous-dependencies': 0,
     'import/prefer-default-export': 0,
 
     'jsx-a11y/href-no-hash': 0,
@@ -63,19 +51,6 @@ module.exports = {
     'react/jsx-filename-extension': 0,
     'react/no-array-index-key': 0,
     'react/prefer-stateless-function': 0,
-    'react/prop-types': 0,
-
-    'angular/controller-name': 0,
-    'angular/definedundefined': 0,
-    'angular/document-service': 0,
-    'angular/interval-service': 0,
-    'angular/json-functions': 0,
-    'angular/log': 0,
-    'angular/timeout-service': 0,
-    'angular/typecheck-array': 0,
-    'angular/typecheck-function': 0,
-    'angular/typecheck-object': 0,
-    'angular/typecheck-string': 0,
-    'angular/window-service': 0
+    'react/prop-types': 0
   }
 };
