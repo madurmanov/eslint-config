@@ -12,11 +12,11 @@
     "eslint": ">=4.15.0"
   },
   "dependencies": {
-    "babel-eslint": "7.2.1",
-    "eslint-config-airbnb": "14.1.0",
-    "eslint-import-resolver-babel-module": "3.0.0",
-    "eslint-plugin-import": "2.2.0",
-    "eslint-plugin-jsx-a11y": "4.0.0",
-    "eslint-plugin-react": "6.10.3"
+    "babel-eslint": "^8.2.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-import-resolver-babel-module": "^4.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1"
   }
 }
