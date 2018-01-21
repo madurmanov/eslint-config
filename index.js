@@ -17,6 +17,7 @@ module.exports = {
     window: true
   },
   rules: {
+    'max-len': 0,
     'global-require': 0,
     'arrow-body-style': 0,
     'arrow-parens': 0,
