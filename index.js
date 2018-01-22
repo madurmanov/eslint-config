@@ -13,6 +13,7 @@ module.exports = {
     __BROWSER__: true,
     __DEV__: true,
     __LOC__: true,
+    __API__: true,
     document: true,
     window: true
   },
