@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint index.js"
   },
   "author": "Mikhail Durmanov",
   "repository": {
@@ -15,10 +15,9 @@
   "peerDependencies": {
     "babel-core": ">=6.26.0",
     "babel-plugin-module-resolver": ">=3.0.0",
-    "eslint": ">=4.17.0"
+    "eslint": ">=4.10.0"
   },
   "dependencies": {
-    "@babel/types": "7.0.0-beta.36",
     "babel-eslint": "8.2.1",
     "eslint-config-airbnb": "16.1.0",
     "eslint-import-resolver-babel-module": "4.0.0",
@@ -29,6 +28,6 @@
   "devDependencies": {
     "babel-core": "6.26.0",
     "babel-plugin-module-resolver": "3.0.0",
-    "eslint": "4.17.0"
+    "eslint": "4.10.0"
   }
 }

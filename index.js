@@ -1,10 +1,10 @@
 module.exports = {
   extends: 'airbnb',
   plugins: [
-    'react'
+    'react',
   ],
   env: {
-    browser: true
+    browser: true,
   },
   parser: 'babel-eslint',
   globals: {
@@ -54,5 +54,5 @@ module.exports = {
     'react/sort-comp': 0,
 
     semi: [2, 'never'],
-  }
-};
+  },
+}
