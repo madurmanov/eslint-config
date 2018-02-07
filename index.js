@@ -10,6 +10,7 @@ module.exports = {
   globals: {
     __BROWSER__: true,
     __DEV__: true,
+    __SSR__: true,
   },
   rules: {
     'arrow-body-style': 0,
