@@ -4,7 +4,9 @@ module.exports = {
   globals: {
     window: true,
     document: true,
+    fetch: true,
     alert: true,
+    __DEV__: true,
   },
   rules: {
     'comma-dangle': [
